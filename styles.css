@@ -1,0 +1,190 @@
+html{
+    width:40%;
+   }
+body{
+    background-color: #FAFAFA;
+}
+a{
+    text-decoration: none;
+}
+.screenshot{
+    margin-top: 50px;
+    margin-left: 250px;
+       }
+       .container{
+        display: flex;
+        flex-direction: column;
+        }             
+                
+#logo{
+    margin-top: 30px;
+    margin-bottom:30px;
+    margin-right:60px;
+    }
+   .login_page{
+    padding-top:160px;
+        
+                   }
+.login{
+    border: 1px solid #eee;
+    width: 350px;
+    background-color: white;
+    text-align:center;
+    margin-top:-750px;
+    margin-left:700px;
+               }
+input{
+    border-radius:5px;
+    width:75%;
+    margin:5px 10px;
+    height:35px;
+    border:1px solid #eee;
+    background-color: #fafafa;
+    border-width: thin;
+    padding:0px 5px;
+   }
+button {
+    width:79%;
+    margin-top:15px;
+    margin-bottom:10px;
+    height:30px;
+    background-color:lightblue ;
+    color:white;
+   
+    border:1px solid #eee;
+    border-radius: 5px;
+}
+p{
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom:30px;
+    color:rgb(141, 140, 140);}
+p:before{
+    content:'';
+    display:block;
+    width:100px;
+    height:1px;
+    position:absolute;
+    background: rgb(192, 190, 190);
+    left: 5;
+    top: 50%;
+    margin-left: 40px;
+}
+/*Creating the line after a text*/
+p:after{
+    content:'';
+    display:block;
+    width:100px;
+    height:1px;
+    position:absolute;
+    background: rgb(192, 190, 190);
+    right: 0;
+    top: 50%;
+    margin-right: 40px;
+}
+#facebook{
+    width:15px;          
+    height:15px;
+    }
+    #password{
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+.signup{
+border: 1px solid #eee;
+width:350px; 
+background-color: white;
+height:40px;
+text-align: center;
+margin: 10px 700px;
+padding-top: 20px;
+padding-bottom: 3px;
+}
+#wrap{
+    text-align: center;
+    margin-left:450px;
+    min-width: 800px;
+   }
+   .downloads{
+       width:100%;
+       margin-left: 730px;
+       margin-top: 20px;
+       display: flex;
+          }
+          .downloads #android{
+              margin-left:10px;
+          }
+ footer {
+     margin-top:-100px;
+          padding-left: 80px;
+ }
+ footer .lists {
+     font-size:12px;
+     font-weight: bold;
+     margin-top:0px;
+  display: flex;
+  justify-content:space-between;
+      }
+   .more_information ul{
+    list-style: none;
+    display: flex;
+    white-space: nowrap;
+               }
+.more_information ul li a{
+    margin-right: 10px;
+    color:#003569;
+    }
+.copyright{
+    font-size: 12px;
+    margin-top: 13px;
+    margin-left: 170px;
+    color:#999999;
+white-space: nowrap;
+}
+@media (max-width:875px){
+    .screenshot{
+        display: none;
+    }
+    body{
+        width:20px;
+    }
+    .container{
+        display: flex;
+        margin-top: 650px;
+        justify-content:center;
+        align-items: center;
+        padding-left: 430px;
+        flex-direction: column;
+
+    }
+    #wrap{
+        text-align: center;
+        margin-left:450px;
+        max-width: 800px;
+       }
+     .lists{        
+        display: flex;
+        flex-wrap:wrap;
+        padding-left: 200px;
+        max-width: 500px;
+    }     
+       .more_information ul{
+        flex-wrap: wrap;
+      padding-left: -300px;
+      padding-right: -250px;
+        margin-left:-250px;
+        margin-right: 10px;
+        justify-content: center;
+        flex-shrink: inherit;
+            }
+    .more_information ul li{
+      margin-bottom: 5px;
+    }
+    .copyright{
+    margin-left: -100px;
+    }
+  
+}
